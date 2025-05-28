@@ -29,11 +29,7 @@ return (
     <div>
       <Checkbox/>
     </div>
-    <div>
-      <Button variant="elevated">
-        dont click me
-      </Button>
-    </div>
+
   </div>
   </div>
 )
