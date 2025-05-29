@@ -55,6 +55,7 @@ const Navbar = () => {
       <div className="flex lg:hidden items-center pr-4">
         <Button variant="ghost"
         className="size-12 border-transparent bg-white text-black"
+        aria-label="Open mobile menu"
         onClick={() => setIsSidebarOpen(true)}>
             <MenuIcon/>
         </Button>
