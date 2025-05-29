@@ -6,10 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:types": "payload generate:types"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
+    "@payloadcms/db-mongodb": "^3.39.1",
+    "@payloadcms/next": "^3.39.1",
+    "@payloadcms/payload-cloud": "^3.39.1",
+    "@payloadcms/richtext-lexical": "^3.39.1",
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-alert-dialog": "^1.1.14",
     "@radix-ui/react-aspect-ratio": "^1.1.7",
@@ -39,15 +44,15 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
-    "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
+    "graphql": "^16.11.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.511.0",
     "next": "15.3.2",
     "next-themes": "^0.4.6",
-    "react": "^19.0.0",
-    "react-day-picker": "8.10.1",
-    "react-dom": "^19.0.0",
+    "payload": "^3.39.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.56.4",
     "react-resizable-panels": "^3.0.2",
     "recharts": "^2.15.3",
@@ -65,7 +70,8 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "tw-animate-css": "^1.3.0",
-    "typescript": "^5"
+    "typescript": "^5.8.3"
   }
 }
