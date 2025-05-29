@@ -10,8 +10,10 @@ export default async function Home() {
   });
 
   return (
-    <div>
+    <pre>
       {JSON.stringify(data, null, 2)}
-    </div>
+    </pre>
   );
 }
+
+//pre
